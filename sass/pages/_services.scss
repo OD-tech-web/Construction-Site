@@ -1,0 +1,18 @@
+.empty-service {
+    height: 1rem;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    background-color: $primary-color;
+    padding: 0rem 1rem 2rem;
+
+    &-item {
+        background: lighten($primary-color, 10%);
+        padding: 0.5rem;
+        border-bottom: 5px solid $secondary-color;
+        margin-top: .5rem;
+    }
+}

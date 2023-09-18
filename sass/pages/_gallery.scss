@@ -1,0 +1,83 @@
+.empty-gallery {
+    height: 5rem;
+}
+
+.gallery {
+
+    &-h1 {
+        margin-bottom: 3rem;
+    }
+
+    &-box {
+
+        .gallery-img {
+            height: 10rem;
+            background-image: url(../image/fiona.jpg);
+            background-size: 100% 100%;
+        }
+
+        .box1-gallery_img1 {
+            background-image: url(../image/Home/img1.jpeg);
+        }
+
+        .box1-gallery_img2 {
+            background-image: url(../image/Home/img3.jpeg);
+        }
+
+        .box1-gallery_img3 {
+            background-image: url(../image/Home/img6.jpeg);
+        }
+
+        .box1-gallery_img4 {
+            background-image: url(../image/Home/img7.jpeg);
+        }  
+
+        .box2-gallery_img1 {
+            background-image: url(../image/Kitchen/img1.jpeg);
+        }
+
+        .box2-gallery_img2 {
+            background-image: url(../image/Kitchen/img2.jpeg);
+        }
+
+        .box2-gallery_img3 {
+            background-image: url(../image/Kitchen/img3.jpeg);
+        }
+
+        .box2-gallery_img4 {
+            background-image: url(../image/Kitchen/img4.jpeg);
+        }  
+
+        .box3-gallery_img1 {
+            background-image: url(../image/Bathroom/img2.jpeg);
+        }
+
+        .box3-gallery_img2 {
+            background-image: url(../image/Bathroom/img4.jpeg);
+        }
+
+        .box3-gallery_img3 {
+            background-image: url(../image/Bathroom/img6.jpeg);
+        }
+
+        .box3-gallery_img4 {
+            background-image: url(../image/Bathroom/img5.jpeg);
+        }  
+
+        .box4-gallery_img1 {
+            background-image: url(../image/Room/img1.jpeg);
+        }
+
+        .box4-gallery_img2 {
+            background-image: url(../image/Room/img2.jpeg);
+        }
+
+        .box4-gallery_img3 {
+            background-image: url(../image/Room/img3.jpeg);
+        }
+
+        .box4-gallery_img4 {
+            background-image: url(../image/Room/img4.jpeg);
+        }   
+    }
+}

@@ -1,0 +1,60 @@
+.empty-blog {
+    height: 5rem;
+}
+
+.blogs {
+
+    &-item {
+        background-color: $primary-color;
+        border-radius: .4rem;
+        margin-top: .5rem;
+
+        .blogs-img {
+            background-image: url(../image/img8.jpeg);
+            background-size: cover;
+            height: 10rem;
+            border-top-right-radius: .4rem;
+            border-top-left-radius: .4rem;
+        }
+
+        .blogs-img2 {
+            background-image: url(../image/img11.jpeg);
+        }
+        .blogs-img3 {
+            background-image: url(../image/Bathroom/img7.jpeg);
+        }
+        .blogs-img4 {
+            background-image: url(../image/Home/img5.jpeg);
+        }
+        .blogs-img5 {
+            background-image: url(../image/img9.jpeg);
+        }
+        .blogs-img6 {
+            background-image: url(../image/Bathroom/img1.jpeg);
+        }
+        .blogs-img7 {
+            background-image: url(../image/img10.jpeg);
+        }
+        .blogs-img8 {
+            background-image: url(../image/Home/img1.jpeg);
+        }
+
+        &_box {
+            padding: 0rem 1rem 1rem;
+        }
+
+        .blogs-item_btn {
+            margin-top: 1.5rem;
+            font-size: .6rem;
+            font-weight: 700;
+
+            .blogs-btn {
+                background: $secondary-color;
+                padding: 10px 20px;
+                color: $primary-color;
+                display: inline-block;
+                cursor: pointer;
+            }
+        }
+    }
+}

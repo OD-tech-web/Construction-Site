@@ -1,0 +1,34 @@
+.empty-contact {
+    height: 5rem;
+}
+
+.contact {
+    padding: 0rem 1rem 2rem;
+
+    &-form_item {
+        margin-top: .2rem;
+
+        #name,
+        #phone,
+        #email,
+        #subject,
+        #message {
+            width: 100%;
+            padding: .5rem .8rem;
+            outline: none;
+            border: .1rem solid gray;
+            border-radius: .2rem;
+        }
+
+        #message {
+            resize: none;
+        }
+    }
+
+    &-btn {
+        padding: .5rem 0rem;
+        border-radius: .2rem;
+        border: .1rem solid $primary-color;
+        color: $primary-color;
+    }
+}

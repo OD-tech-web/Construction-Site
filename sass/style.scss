@@ -1,0 +1,62 @@
+@import './variables';
+@import './reset';
+@import './config';
+
+body {
+    background-color: $bg-color;
+}
+
+.mg-t {
+    margin-top: 1rem;
+}
+
+.mg-b {
+    margin-bottom: 1rem;
+}
+
+.text-secondary {
+    color: $secondary-color;
+}
+
+.text-primary {
+    color: $primary-color;
+}
+
+.bg-color {
+    color: $bg-color;
+}
+
+.txt-ctr {
+    text-align: center;
+}
+
+.mg-t_md {
+    margin-top: 2rem;
+}
+
+.mg-t_lg {
+    margin-top: 3rem;
+}
+
+.mg-b_md {
+    margin-bottom: 2rem;
+}
+
+.mg-b_lg {
+    margin-bottom: 3rem;
+}
+
+.pad {
+    padding: 0rem 1rem;
+}
+
+@import './semantics/header';
+@import './semantics/sidebar';
+@import './pages/home';
+@import './pages/about';
+@import './pages/gallery';
+@import './pages/services';
+@import './pages/blog';
+@import './pages/contact';
+@import './semantics/footer';
+@import './responsive';

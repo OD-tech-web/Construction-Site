@@ -1,0 +1,21 @@
+.empty-about {
+    height: 5rem;
+}
+
+.about {
+    margin-bottom: 2rem;
+
+    &-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        background-color: $primary-color;
+        padding: 1rem 1rem 2rem;
+
+        &_item {
+            background: lighten($primary-color, 10%);
+            padding: 0.5rem;
+            border-bottom: 5px solid $secondary-color;
+        }
+    }
+}
